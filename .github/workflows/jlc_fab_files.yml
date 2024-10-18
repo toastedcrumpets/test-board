@@ -32,9 +32,9 @@ jobs:
       - uses: nerdyscout/kicad-exports@v2.2
         with:
           config: pcb/jlcpcb_fab_files.kibot.yaml
-          dir: ''
-          board: 'pcb.kicad_pcb'
-          schema: 'pcb.sch'
+          dir: 'pcb'
+          board: 'pcb/pcb.kicad_pcb'
+          schema: 'pcb/pcb.sch'
       - uses: papeloto/action-zip@v1
         name: Zip gerbers
         with:
