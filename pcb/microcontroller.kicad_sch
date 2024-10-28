@@ -2747,7 +2747,7 @@
 		(uuid "afbac39a-7658-4c67-aeb5-5dfd606d2f7e")
 	)
 	(junction
-		(at 137.16 72.39)
+		(at 139.7 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5033ca4-1e7f-451f-8929-29aec2e6b3ed")
@@ -3098,7 +3098,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 72.39) (xy 139.7 72.39)
+			(xy 139.7 68.58) (xy 142.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3158,6 +3158,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 68.58) (xy 135.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad889f1-639d-4cb2-b7b8-cbfab707662b")
+	)
+	(wire
+		(pts
 			(xy 105.41 29.21) (xy 119.38 29.21)
 		)
 		(stroke
@@ -3165,6 +3175,16 @@
 			(type default)
 		)
 		(uuid "5b394daf-4b0b-439a-abba-32f0831b7b61")
+	)
+	(wire
+		(pts
+			(xy 135.89 72.39) (xy 130.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d046a98-7973-4892-96a8-3310c2a5d471")
 	)
 	(wire
 		(pts
@@ -3195,6 +3215,16 @@
 			(type default)
 		)
 		(uuid "626ba18d-0c0d-42a7-84c1-5ec9da611567")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 157.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6368c38c-ef62-4b9f-84be-f83a99554577")
 	)
 	(wire
 		(pts
@@ -3275,6 +3305,16 @@
 			(type default)
 		)
 		(uuid "803780f1-dfe3-4194-846d-ce3a4de9d1e9")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80cc217d-c2bc-4ef1-aa71-186441e42482")
 	)
 	(wire
 		(pts
@@ -3598,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 59.69) (xy 137.16 62.23)
+			(xy 139.7 55.88) (xy 139.7 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3635,16 +3675,6 @@
 			(type default)
 		)
 		(uuid "cfe0fcd6-e25a-4a04-884e-e686c841a01b")
-	)
-	(wire
-		(pts
-			(xy 130.81 72.39) (xy 137.16 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5d14b23-52be-4381-baef-7c748b5b3a0a")
 	)
 	(wire
 		(pts
@@ -3715,6 +3745,16 @@
 			(type default)
 		)
 		(uuid "eb1140e1-f1b1-43c2-a45d-783320cf2d15")
+	)
+	(wire
+		(pts
+			(xy 135.89 68.58) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8724fb-d31c-418b-a7fb-3eb3b3728048")
 	)
 	(wire
 		(pts
@@ -3909,7 +3949,7 @@
 	)
 	(global_label "MCU_EN"
 		(shape input)
-		(at 139.7 72.39 0)
+		(at 142.24 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3919,7 +3959,7 @@
 		)
 		(uuid "629b9dff-713b-4a48-9dc4-dd023a8c4b31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.1842 72.39 0)
+			(at 152.7242 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,6 +4146,85 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:10kΩ 0603")
+		(at 157.48 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "050d9582-3890-40be-b387-1fc93dd9fef2")
+		(property "Reference" "R6"
+			(at 160.02 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 160.02 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0603"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0603WAF1002T5E"
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e890894-83e8-47e6-8ebf-eed930dea53c")
+		)
+		(pin "1"
+			(uuid "f8212833-454e-4537-a11f-081218226b5e")
+		)
+		(instances
+			(project "pcb"
+				(path "/7efcc018-2ceb-4b85-a682-18e44d24826b/77e24cbc-bef9-40f4-87d1-6c1611733373"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:TS-1187A-B-A-B")
 		(at 27.94 68.58 0)
 		(unit 1)
@@ -4123,7 +4242,7 @@
 				)
 			)
 		)
-		(property "Value" "TS-1187A-B-A-B"
+		(property "Value" "RESET"
 			(at 27.94 63.5 0)
 			(effects
 				(font
@@ -4406,7 +4525,7 @@
 		(dnp no)
 		(uuid "21c1426f-37a7-4d47-8a42-2166eb8dac16")
 		(property "Reference" "C3"
-			(at 90.17 31.75 0)
+			(at 92.202 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4533,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 100.33 31.75 0)
+			(at 98.298 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4593,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 137.16 59.69 0)
+		(at 139.7 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4483,7 +4602,7 @@
 		(fields_autoplaced yes)
 		(uuid "226ad511-970d-4fd3-ab3d-53e1cbbacc3b")
 		(property "Reference" "#PWR05"
-			(at 137.16 63.5 0)
+			(at 139.7 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,8 +4610,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 137.16 54.61 0)
+		(property "Value" "+3V3_MCU"
+			(at 139.7 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 59.69 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 59.69 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4637,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 137.16 59.69 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,12 +4900,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 35.56 13.97 0)
+		(property "Value" "+3V3_MCU"
+			(at 38.1 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5188,6 +5308,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa8cb13e-9f94-4232-b58a-5300730622db")
+		(property "Reference" "#PWR025"
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9505f4f7-1208-42a0-9258-371220e147a8")
+		)
+		(instances
+			(project "pcb"
+				(path "/7efcc018-2ceb-4b85-a682-18e44d24826b/77e24cbc-bef9-40f4-87d1-6c1611733373"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:22uF 6.3V 0603")
 		(at 86.36 31.75 90)
 		(unit 1)
@@ -5197,7 +5383,7 @@
 		(dnp no)
 		(uuid "c70fb288-7773-4a9c-a956-c82e13796ae1")
 		(property "Reference" "C2"
-			(at 81.28 31.75 0)
+			(at 83.312 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5391,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 91.44 31.75 0)
+			(at 89.408 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5467,7 @@
 				)
 			)
 		)
-		(property "Value" "TS-1187A-B-A-B"
+		(property "Value" "BOOT"
 			(at 27.94 85.09 0)
 			(effects
 				(font
@@ -5480,7 +5666,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:10kΩ 0603")
-		(at 137.16 67.31 90)
+		(at 139.7 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5489,7 +5675,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1b308be-e0c4-486e-8997-7613c1ff86b0")
 		(property "Reference" "R1"
-			(at 139.7 66.0399 90)
+			(at 142.24 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +5684,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 139.7 68.5799 90)
+			(at 142.24 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5693,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 144.78 67.31 0)
+			(at 147.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +5702,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 147.32 67.31 0)
+			(at 149.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5711,7 @@
 			)
 		)
 		(property "Description" "0603WAF1002T5E"
-			(at 137.16 67.31 0)
+			(at 139.7 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5720,7 @@
 			)
 		)
 		(property "LCSC Part" "C25804"
-			(at 149.86 67.31 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
