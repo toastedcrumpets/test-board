@@ -34,3 +34,4 @@ fp-info-cache
 # The temporary file created by the JLCPCB plugin
 pcb/jlcpcb
 
+pcb/fabrication
