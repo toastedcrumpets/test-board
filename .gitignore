@@ -35,3 +35,5 @@ fp-info-cache
 pcb/jlcpcb
 
 pcb/fabrication
+
+firmware/build
